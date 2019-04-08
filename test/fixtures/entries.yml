@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  entry_time: 2019-04-07 20:35:09
+  exit_time: 2019-04-07 20:35:09
+  total_time: 1
+  price: 1.5
+  vehicle_id: 1
+  rate_id: 1
+  parking_id: 1
+
+two:
+  entry_time: 2019-04-07 20:35:09
+  exit_time: 2019-04-07 20:35:09
+  total_time: 1
+  price: 1.5
+  vehicle_id: 1
+  rate_id: 1
+  parking_id: 1
