@@ -9,7 +9,7 @@ gem 'rails', '~> 5.2.2'
 ##########################
 gem 'time_diff', '~> 0.3.0'
 gem 'time_difference'
-gem 'rails_12factor', '~> 0.0.3'
+gem 'rails_12factor', '0.0.2'
 
 ################################
 # Use postgresql as the database for Active Record
