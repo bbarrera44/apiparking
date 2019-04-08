@@ -15,7 +15,7 @@ class VehiclesController < ApplicationController
   # POST /vehicles
   # POST /vehicles.json
   def create
-    @vehicle = Vehicle.new(vehicle_params)
+    @vehicle = Vehicle.new()
 
     if @vehicle.save
       render :show, status: :created, location: @vehicle

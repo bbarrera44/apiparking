@@ -9,10 +9,8 @@ gem 'rails', '~> 5.2.2'
 ##########################
 gem 'time_diff', '~> 0.3.0'
 gem 'time_difference'
-gem 'rails_12factor', '0.0.2'
-group :production do
-  gem "rails_12factor"
-end
+gem "rails_12factor", '1.0.2'
+
 ################################
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'

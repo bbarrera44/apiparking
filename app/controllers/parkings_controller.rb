@@ -15,7 +15,7 @@ class ParkingsController < ApplicationController
   # POST /parkings
   # POST /parkings.json
   def create
-    @parking = Parking.new(parking_params)
+    @parking = Parking.new()
 
     if @parking.save
       render :show, status: :created, location: @parking

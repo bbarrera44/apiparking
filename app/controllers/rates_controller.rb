@@ -15,7 +15,7 @@ class RatesController < ApplicationController
   # POST /rates
   # POST /rates.json
   def create
-    @rate = Rate.new(rate_params)
+    @rate = Rate.new()
 
     if @rate.save
       render :show, status: :created, location: @rate
